@@ -1223,3 +1223,24 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+/* Responsive font and layout */
+@media (max-width: 768px) {
+  .desc p {
+    font-size: 0.95rem;
+  }
+
+  .tag h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .desc p {
+    font-size: 0.9rem;
+  }
+
+  .tag h3 {
+    font-size: 1.1rem;
+  }
+}
