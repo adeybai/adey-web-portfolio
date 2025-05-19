@@ -131,6 +131,10 @@ header .navbar ul li a:hover {
   display: none;
 }
 @media (max-width: 768px) {
+  .work .box {
+    width: 100%;
+}
+  
   #menu {
     display: block;
   }
